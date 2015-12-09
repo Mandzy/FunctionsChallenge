@@ -1,5 +1,5 @@
 # Name: 
-
+usingKineticEquation ()
 ## Examples:
 Insert examples here.
 
