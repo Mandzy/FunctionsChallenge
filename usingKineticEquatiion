@@ -4,18 +4,18 @@ usingKineticEquation ()
 void draw (){
 println (usingKineticEquation (20,30 'k'))
 }
-float usingKineticEquation (float x, float y, char value) {
+float usingKineticEquation (float a, float b, char value) {
   float answer;
   if (value == 'k') {
-    answer = .5*x*sq(y);
+    answer = .5*a*sq(b);
     return answer;
   }
   if (value == 'm') {
-    answer = 2*x/sq(y); 
+    answer = 2*a/sq(b); 
     return answer;
   }
   if (value == 'v'){
-    answer = sqrt(2*x/y);
+    answer = sqrt(2*a/b);
     return answer;
   }
   println("Make a valid choice");
