@@ -29,6 +29,17 @@ The findingMissingSide function is variations of the hypotenuse equations to hel
 float findMissingSide (float j, float k, char choice)
 
 ##Parameters: 
+if choice is 'a'
+k= c
+j= b
+
+if choice is 'b'
+k = c
+j = a
+
+if choice is 'c'
+k = a 
+j = b
 
 
 ##Returns:
