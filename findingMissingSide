@@ -43,7 +43,7 @@ j = b
 
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+derived from the equation sq(a)+sq(b) =sq(c)
