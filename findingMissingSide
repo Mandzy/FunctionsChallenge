@@ -1,0 +1,49 @@
+# Name: 
+findingMisiingSide () 
+## Examples:
+void draw () {
+println (findMissingSide(20, 30, k)){
+}
+float findMissingSide (float j, float k, char choice) {
+  float result;
+  if (choice == 'a') {
+    result = sqrt(sq(k) - sq(j));
+    return result;
+  }
+  if (choice == 'b'){
+    result = sqrt(sq(k) - sq(j));
+    return result;  
+  }
+  if (choice == 'c'){
+    result = sqrt(sq(k) + sq(j));
+    return result;
+  }
+  println("Make a valid choice");
+  return 0;
+}
+
+## Description:
+The findingMissingSide function is variations of the hypotenuse equations to help the user find the missing side
+
+## Syntax:
+float findMissingSide (float j, float k, char choice)
+
+##Parameters: 
+if choice is 'a'
+k= c
+j= b
+
+if choice is 'b'
+k = c
+j = a
+
+if choice is 'c'
+k = a 
+j = b
+
+
+##Returns:
+float
+
+##Other notes:
+derived from the equation sq(a)+sq(b) =sq(c)
